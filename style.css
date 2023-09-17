@@ -613,6 +613,17 @@ footer {
     filter: brightness(70%);
 }
 
+.copyright {
+    background-color: #421d5f;
+    border-top: 0.01px solid rgb(102, 97, 97);
+}
+
+.copyright p {
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+}
+
 #back-to-top {
     position: fixed;
     bottom: 40px; 
