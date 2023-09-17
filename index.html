@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" href="imagens/logo.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      <title>Educação em Progresso</title>
+  </head>
+
+  <body>
+    <!-- Top bar-->
+    <header class="top-bar-container container-fluid">
+      <div class="row align-items-center">
+          <div class="col-6 col-md-8">
+              <p id="date"><i class="fas fa-clock"></i></p>
+          </div>
+          <div class="col-6 col-md-4 text-right">
+              <a href="https://www.linkedin.com/in/jaquelinems/" target="_blank"><img src="./imagens/link1.svg" alt="linkedin"></a>
+              <a href="https://github.com/jaquel1ne"><img src="./imagens/git1.svg" alt="github" class="git1"></a>
+          </div>
+      </div>
+    </header>
+
+    <!-- Logo e Hamburger -->
+    <div class="container logo-container">
+        <div class="row">
+            <!-- Logo -->
+            <div class="col-8 col-sm-10 text-left">
+                <a href="index.html"><img src="./imagens/logo.png" alt="logo"></a>
+            </div>
+
+            <!-- Menu Hamburger -->
+            <div class="col-4 col-sm-2 text-right">
+                <!-- Botão para abrir o menu (ícone hambúrguer) -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr class="linha">
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Botão para fechar o menu (ícone X) -->
+            <button class="navbar-toggler close-menu" type="button">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#noticias"><i class="fas fa-newspaper"></i> Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carrossel de imagens -->
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="4"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="5"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="6"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="7"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="8"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="9"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="10"></li>
+            </ol>
+
+            <!-- Conteúdo do Carrossel -->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./imagens/objetivo4.jpg" class="d-block w-100" alt="imagem objetivo4">
+                    <div class="carousel-caption">
+                        <h2>Desenvolvimento Sustentável 4: <span>Educação de Qualidade</span></h2>
+                        <p>O Objetivo do Desenvolvimento Sustentável 4 visa garantir uma educação de qualidade inclusiva
+                        e equitativa e promover oportunidades de aprendizagem ao longo da vida para todos.</p>
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img2.jpg" class="d-block w-100" alt="imagem ensino básico">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.1: <span>Ensino Básico</span></h2>
+                        <p>Até 2030, garantir que todas as meninas e meninos completem o ensino primário e secundário
+                        livre, equitativo e de qualidade, que conduza a resultados de aprendizagem relevantes e eficazes.</p>
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img1.jpg" class="d-block w-100" alt="imagem desenvolvimento">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.2: <span>Desenvolvimento</span></h2>
+                        <p>Até 2030, garantir que todos as meninas e meninos tenham acesso a um desenvolvimento
+                        de qualidade na primeira infância, cuidados e educação pré-escolar, de modo que eles estejam
+                        prontos para o ensino primário.</p>
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img9.jpg" class="d-block w-100" alt="imagem igualdade">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.3: <span>Igualdade</span></h2>
+                        <p>Até 2030, assegurar a igualdade de acesso para todos os homens e mulheres à educação técnica,
+                        profissional e superior de qualidade, a preços acessíveis, incluindo universidade.</p>
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img10.jpg" class="d-block w-100" alt="imagem empreendedorismo">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.4: <span>Empreendedorismo</span></h2>
+                        <p>Até 2030, aumentar substancialmente o número de jovens e adultos que tenham habilidades
+                        relevantes, inclusive competências técnicas e profissionais, para emprego, trabalho decente    
+                        e empreendedorismo.</p>
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img4.jpg" class="d-block w-100" alt="imagem inclusao">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.5: <span>Inclusão</span></h2>
+                        <p>Até 2030, eliminar as disparidades de gênero na educação e garantir a igualdade de acesso
+                        todos os níveis de educação e formação profissional para os mais vulneráveis, incluindo as pessoas  
+                        com deficiência, povos indígenas e as crianças em situação de vulnerabilidade.</p>
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img11.jpg" class="d-block w-100" alt="imagem alfabetização">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.6: <span>Alfabetização</span></h2>
+                        <p>Até 2030, garantir que todos os jovens e uma substancial proporção dos adultos, homens
+                            e mulheres estejam alfabetizados e tenham adquirido o conhecimento básico de matemática.</p>  
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img12.jpg" class="d-block w-100" alt="imagem desenvolvimento sustentável">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.7: <span>Desenvolvimento Sustentável</span></h2>
+                        <p>Até 2030, garantir que todos os alunos adquiram conhecimentos e habilidades necessárias
+                        para promover o desenvolvimento sustentável, inclusive, entre outros, por meio da educação para
+                        o desenvolvimento sustentável e estilos de vida sustentáveis, direitos humanos, igualdade de gênero,
+                        promoção de uma cultura de paz e não violência, cidadania global e valorização da diversidade cultural    
+                        e da contribuição da cultura para o desenvolvimento sustentável.</p>  
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img13.jpg" class="d-block w-100" alt="imagem acessibilidade">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.a: <span>Acessibilidade</span></h2>
+                        <p>Construir e melhorar instalações físicas para educação, apropriadas para crianças e sensíveis
+                        às deficiências e ao gênero, e que proporcionem ambientes de aprendizagem seguros e não violentos,
+                        inclusivos e eficazes para todos.</p>  
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img14.jpg" class="d-block w-100" alt="imagem bolsas de estudo">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.b: <span>Bolsas de Estudo</span></h2>
+                        <p>Até 2020, substancialmente ampliar globalmente o número de bolsas de estudo para os países em
+                        desenvolvimento, em particular os países menos desenvolvidos, pequenos Estados insulares em
+                        desenvolvimento e os países africanos, para o ensino superior, incluindo programas de formação
+                        profissional, de tecnologia da informação e da comunicação, técnicos, de engenharia e programas
+                        científicos em países desenvolvidos e outros países em desenvolvimento.</p>  
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./imagens/img15.jpeg" class="d-block w-100" alt="imagem qualificação">
+                    <div class="carousel-caption">
+                        <h2>Meta 4.c: <span>Qualificação</span></h2>
+                        <p>Até 2030, substancialmente aumentar o contingente de professores qualificados, inclusive por
+                        meio da cooperação internacional para a formação de professores, nos países em desenvolvimento,
+                        especialmente os países menos desenvolvidos e pequenos Estados insulares em desenvolvimento.</p>  
+                        <div class="button-wrapper">
+                            <a href="https://brasil.un.org/pt-br/sdgs/4" target="_blank" class="details-button">Detalhes</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educação pelo Mundo -->
+    <section>
+        <div class="educacao container">
+            <!-- Título -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Educação Pelo Mundo</h1>
+                </div>
+            </div>
+
+            <!-- Conteúdo: Imagem à esquerda e citação à direita -->
+            <div class="row mt-4">
+                <!-- Imagem -->
+                <div class="col-md-6">
+                    <img src="./imagens/malala-yousafzai.jpg" alt="malala" class="img-fluid">
+                </div>
+
+                <!-- Citação -->
+                <div class="col-md-6">
+                    <blockquote>
+                        <h3>"Uma criança, um professor, um livro e uma caneta podem mudar o mundo. A educaçao
+                        é a única solução."</h3>
+                        <h4>Malala Yousafzai na Conferência das Nações Unidas de 2013.</h4>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mundo Contexto -->
+    <section class="mundo-contexto my-5"> <!-- my-5 adiciona uma margem vertical -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12"> <!-- 12 colunas ocupando toda a largura disponível -->
+                    <p>A educação é um bem público fundamental, cuja proteção e garantia são responsabilidades primordiais
+                        do Estado. Nesse contexto, a construção de uma educação inclusiva requer o esforço conjunto da sociedade
+                        civil, educadores, setor privado, comunidades, famílias, jovens e crianças. A formulação e implementação
+                        de políticas públicas são essenciais para assegurar o direito à educação de qualidade, sendo o papel
+                        regulador do Estado de extrema importância na definição de padrões e normas.</p>
+                    <p>Para alcançar a meta de uma educação de qualidade em âmbito mundial, é imprescindível que toda a
+                        população se engaje nesse propósito. Cada país deve adotar medidas adequadas à sua realidade específica
+                        para avançar nesse caminho.</p>
+                    <p>Veja como o Brasil se comprometeu com as metas estabelecidas pela Agenda 2030 para o Desenvolvimento Sustentável (ODS) segundo o IPEA:</p>
+                    
+                    <!-- Botão -->
+                    <div class="mt-4 d-flex justify-content-center"> <!-- mt-4 adiciona uma margem superior -->
+                        <a href="https://www.ipea.gov.br/ods/ods4.html" target="_blank" class="btn btn-primary">LEIA MAIS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brasil Contexto -->
+    <section class="brasil-contexto mt-5">
+        <div class="container">
+    
+            <!-- Row para imagem e texto -->
+            <div class="row equal-right">
+                
+                <!-- Coluna para imagem -->
+                <div class="col-md-6 brasil-contexto-img">
+                    <a href="https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/
+                    noticias/37089-em-2022-analfabetismo-cai-mas-continua-mais-alto-entre-idosos-pretos-e-
+                    pardos-e-no-nordeste#:~:text=A%20taxa%20de%20analfabetismo%20recuou,%2C8%25%20para%20o%20Sudeste" target="_blank">
+                        <img src="./imagens/ibge.png" alt="ibge" class="img-fluid">
+                        <img src="./imagens/ibge1.png" alt="ibge1" class="img-fluid">
+                    </a>  
+                </div>
+                                                
+                <!-- Coluna para texto -->
+                <div class="col-md-6">
+                    <div class="brasil-contexto-dados">
+                        <p>Embora a taxa de analfabetismo no Brasil tenha caído de 6,1% em 2019 para 5,6% em 2022, resultando
+                        em aproximadamente 490 mil analfabetos a menos, os números permanecem preocupantes. Dados da Pesquisa
+                        Nacional por Amostra de Domicílios Contínua (PNAD Contínua) do IBGE indicam que a maioria dos analfabetos
+                        é composta por indivíduos com 60 anos ou mais, sendo a taxa de analfabetismo entre pretos e pardos duas
+                        vezes maior do que entre brancos. Além disso, a região Nordeste tem a taxa mais alta de analfabetismo,
+                        11,7%, em contraste com a taxa mais baixa do Sudeste, de 2,9%. Essas estatísticas apresentam desafios
+                        significativos para a realização da meta do Plano Nacional de Educação (PNE) de erradicar o analfabetismo
+                        até 2024.</p><br>
+                        <p><strong>Outros fatores observados:</strong></p>
+                        <ul class="lista-fatores">
+                            <li>Em 2022, pela primeira vez, mais de 50% das pessoas com 25 anos ou mais de idade do país já haviam concluído a educação básica;</li>
+                            <li>Cai o percentual de pessoas de 25 anos ou mais com ensino fundamental incompleto;</li>
+                            <li>Número médio de anos de estudo das mulheres é mais alto que o dos homens;</li>
+                            <li>Rede pública de ensino predomina da creche ao nível médio;</li>
+                            <li>Opção dos pais é principal motivo para crianças de 0 a 3 anos não frequentarem escola;</li>
+                            <li>Cai a taxa de escolarização das crianças de 4 a 5 anos;</li>
+                            <li>Em 2022, percentual de crianças de 6 a 14 anos na etapa adequada foi o mais baixo desde 2016;</li>
+                            <li>Cresce taxa de frequência escolar de jovens de 15 a 17 anos;</li>
+                            <li>70,9% dos pretos e pardos com 18 a 24 anos deixaram os estudos sem concluir o ensino superior;</li>
+                            <li>Abandono escolar se acentua entre os jovens a partir de 15 anos;</li>
+                            <li>Necessidade de trabalhar é principal razão para abandono;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Soluções -->
+        <section class="solucoes mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+                        <h1>Soluções</h1>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-md-6 mb-4 mb-md-0 solucoes-content">
+                        <img src="./imagens/img21.gif" alt="solução">
+                    </div>
+                    
+        
+                    <div class="col-md-6">
+                        <div class="solucoes-texto">
+                            <p>
+                                As medidas destinadas a alcançar o Objetivo de Desenvolvimento Sustentável (ODS) 4 devem ser orientadas por princípios de inclusão, participação
+                                e transparência para garantir a sua eficácia. Trabalhando ou não com educaçao, todos têm um papel
+                                importante nesse esforço: governo, educadores, setores privados, organizações filantrópicas, comunidades de
+                                pesquisa, estudantes e suas organizações.<br><br>
+                                Algumas maneiras de atingir essas metas incluem:
+                            </p>
+                            
+                            <div class="solucoes-metas">
+                                <div class="solucoes-item">
+                                    <img src="./imagens/equidade.svg" alt="equidade">
+                                    <p>O governo além de garantir o direito à edução, precisa buscar a melhoria no ensino e reduzir
+                                    disparidades entre regiões, comunidades e escolas.</p>
+                                </div>
+        
+                                <div class="solucoes-item">
+                                    <img src="./imagens/conscientizacao.svg" alt="conscientizacao">
+                                    <p>A sociedade criar uma maior conscientização, acompanhar o progresso das ações, fiscalizar e exigir
+                                    transparência.</p>
+                                </div>
+
+                                <div class="solucoes-item">
+                                    <img src="./imagens/educador.svg" alt="educador">
+                                    <p>Educadores fazerem a ponte entre política e realidade, promover a inclusão e melhorar a didática
+                                    para garantir que todos aprendam.</p>
+                                </div>
+
+                                <div class="solucoes-item">
+                                    <img src="./imagens/pesquisador.svg" alt="pesquisador">
+                                    <p>Pesquisadores podem elaborar políticas públicas, mapear soluções e práticas inovadoras replicáveis.</p>
+                                </div>
+
+                                <div class="solucoes-item">
+                                    <img src="./imagens/empreendedor.svg" alt="empreendedor">
+                                    <p>Setores privados podem contribuir com oportunidades inclusivas, beneficiando os excluídos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video -->
+        <section class="video-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XSD0qLc95is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4"> 
+                    <div class="col-12">
+                        <p>Rafael Gué Martini, Professor da área de Educação e Comunicação na Universidade do Estado de Santa Catarina (UDESC) e voluntário da Ecovila São José mostra 5 dicas para o alcance do ODS 4 e apresenta uma iniciativa que irá disseminar os ODS nas escolas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notícias -->
+        <section class="noticias" id="noticias">
+            <div class="container">
+                <div class="col-12 text-center mb-5">
+                    <h1>Notícias</h1>
+                </div>
+                <div class="row">
+                    <!-- Primeira notícia -->
+                    <div class="col-md-3 text-center"> <!-- Adicionado 'text-center' aqui -->
+                        <a href="https://noticias.cruzeirodosuleducacional.edu.br/seminario-itamaraty-agenda-2030/" target="_blank">
+                            <div class="image-container">
+                                <img src="./imagens/img16.jpg" alt="ods-itamaraty">
+                            </div>
+                            <p>Agenda 2023 da ONU: UDF participa de seminário no Itamaraty</p>
+                        </a>
+                    </div>
+                    <!-- Segunda notícia -->
+                    <div class="col-md-3 text-center"> <!-- Adicionado 'text-center' aqui -->
+                        <a href="https://noticias.unb.br/67-ensino/6312-dezessete-instituicoes-receberao-selo-ods-educacao" target="_blank">
+                            <div class="image-container">
+                                <img src="./imagens/img17.jpg" alt="selo-ods">
+                            </div>
+                            <p>Dezessete instituições receberão selo ODS Educação</p>
+                        </a>
+                    </div>
+                    <!-- Terceira notícia -->
+                    <div class="col-md-3 text-center"> <!-- Adicionado 'text-center' aqui -->
+                        <a href="https://www.gov.br/secretariageral/pt-br/noticias/2023/junho/governo-federal-retoma-agenda-2030-e-os-objetivos-de-desenvolvimento-sustentavel-do-milenio" target="_blank">
+                            <div class="image-container">
+                                <img src="./imagens/img18.jpeg" alt="governo-federal">
+                            </div>
+                            <p>Governo federal retoma Agenda 2030 e os Objetivos da ODS</p>
+                        </a>
+                    </div>
+                    <!-- Quarta notícia -->
+                    <div class="col-md-3 text-center"> <!-- Adicionado 'text-center' aqui -->
+                        <a href="https://paraiba.pb.gov.br/diretas/secretaria-da-educacao/noticias/estudantes-da-rede-estadual-desenvolvem-jogos-sobre-objetivos-de-desenvolvimento-sustentavel-da-onu-e-ganham-premio-da-uniao-europeia" target="_blank">
+                            <div class="image-container">
+                                <img src="./imagens/img19.jpeg" alt="uniao-europeia">
+                            </div>
+                            <p>Estudantes desenvolvem jogos sobre ODS e ganham prêmio da UE</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+              
+        <footer class="footer container-fluid" id="sobre">
+            <div class="row">
+                <!-- Imagem -->
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <img src="./imagens/pic.jpg" alt="perfil" class="img-fluid">
+                </div>
+        
+                <!-- Contato -->
+                <div class="col-md-4">
+                    <p><strong>CONTATO:</strong></p>
+                    <p>Email:</p>
+                    <p>jaquilinas@gmail.com</p>
+                    <p>Telefone:</p>
+                    <p>(82) 99165-3816</p>
+                    <div class="icones-social">
+                        <a href="https://www.linkedin.com/in/jaquelinems/" target="_blank"><img src="./imagens/link.svg" alt="linkedin"></a>
+                        <a href="https://github.com/jaquel1ne" target="_blank"><img src="./imagens/git.svg" alt="github" class="git"></a>
+                        <a href="https://wa.me/5582991653816" target="_blank"><img src="./imagens/wp.svg" alt="whatsapp"></a>
+                    </div>
+                </div>
+        
+                <!-- Sobre -->
+                <div class="col-md-5 sobre">
+                    <p><strong>SOBRE:</strong></p>
+                    <p>Profissional em transição de carreira tentando migrar para tecnologia desde 2022. De Arapiraca- Alagoas, licenciada
+                    em Matemática pela UNEAL, com experiência nas áreas administrativa, financeira, gestão de compras e docência.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+
+ </body>
+
+</html>
+
+
+  
