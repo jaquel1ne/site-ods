@@ -713,18 +713,13 @@ footer {
     }
 
     .carousel {
-        height: 550px; 
-        overflow: hidden;
-        display: grid;
+        min-height: 590px; 
+        overflow: visible;
         margin-top: -28px;
     }
 
     .carousel-item {
-        height: 100%; 
         width: 100%;
-        display: flex; 
-        align-items: center; 
-        justify-content: center; 
         margin-left: 0;
     }
 
@@ -743,10 +738,6 @@ footer {
 
     .carousel-caption h2 {
         font-size: 30px;
-    }
-
-    .button-wrapper {
-        display: none;
     }
 
     .carousel-item img {
@@ -783,10 +774,6 @@ footer {
      }
             
     
-    .carousel {
-        height: 390px;
-    }
-
     .carousel-caption h2, .carousel-caption p {
         white-space: normal !important;
     }
